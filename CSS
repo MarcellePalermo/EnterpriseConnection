@@ -1,1 +1,322 @@
-Adicionar aqui css
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #CE7725;
+}
+
+.links__menu a:hover {
+    color: #CE7725;
+    font-weight: 300;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+.header {
+    width: 100%;
+    height: 10vh;
+    color:#CE7725;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header_titulo {
+    font-size: 3rem;
+    color: #5e5e5e;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+.header__menu ul {
+    display: flex;
+}
+
+.header__menu__item {
+    font-size: 1rem;
+    margin: 0 30px;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.links__menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner {
+    background-image: url(/Image/undraw_web_browsing_p-77-h\ \(1\).svg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right;
+}
+
+.header__chamada {
+    width: 50%;
+    height: 90vh;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-left: 30px;
+}
+
+.header_botao {
+    width: 100%;
+    font-size: 1.3rem;
+    text-align: center;
+    color: #CE7725;
+    margin-bottom: 2rem;
+}
+
+.header__chamada a:hover {
+    background-color: rgb(223, 223, 223);
+    color: #9c9c9c;
+}
+
+.negocios {
+    /* background-color: #fff; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.trabalho {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blocos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+    height: 90vh;
+}
+
+.bloco {
+    width: 28%;
+    height: 80vh;
+    border: 0.5px;
+    background-color: #9c9c9cd5;
+    border-radius: 3%;
+    padding: 0 1% 0 1%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    width: 100%;;
+    font-size: 3rem;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+/* quadradinhos dos hoteis */
+p {
+    color: #fff;
+    text-align: justify;
+}
+
+h3 {
+    font-size: 1rem;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 7%;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+
+.imagem1 {
+    width: 100%;
+    height: 30vh;
+    border-radius: 3%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://live.staticflickr.com/3837/32713160694_3fc9fe7686_b.jpg);
+}
+
+.imagem2 {
+    width: 100%;
+    height: 30vh;
+    border-radius: 3%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://veja.abril.com.br/wp-content/uploads/2021/07/Japan-House-Estevam-Romera.jpg);
+}
+
+.imagem3 {
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+    border-radius: 3%;
+    background-repeat: no-repeat;
+    background-image: url(https://www3.livrariacultura.com.br/arquivos/conjunto-nacional.jpg?v=636967176590430000);
+}
+
+.infos {
+    width: 100%;
+}
+
+i {
+    color: #CE7725;
+    padding: 2% 0 2% 0;
+    box-sizing: border-box;
+}
+
+.infos__1 {
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+}
+
+.botao {
+    display: flex;  
+    justify-content: center;
+    border: 0.2px solid #fff;
+    margin: 5% 35% 0 35%;
+    background-color: #fff;
+    color: #fff;
+}
+
+.botao a:hover {
+    background-color: #fff;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+
+
+.rodape {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #CE7725;
+  padding: 3%;
+}
+
+.rodape p {
+  color: #fff;
+  text-align: center;
+}
+
+
+
+@media (max-width: 940px) {
+    .header {
+        /* background-color: #CE7725; */
+        color: #CE7725;
+        /* position: fixed; */
+        /* display: flex; */
+        /* justify-content: center; */
+        width: 100%;
+        height: 15vh;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .links__menu {
+        width: 100%;
+        height: 15px;
+        /* padding-right: vh; */
+        /* right: -100vw; */
+        transition: 0.8s;
+        flex-direction:column;
+        align-items: flex-end;
+    }
+
+    .header__chamada {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .header__botao {
+        padding: 10%;
+        text-align: center;
+        box-sizing: border-box;
+        background-color: #fff;
+        border-radius: 3%;
+        font-size: 1.5rem;
+        color: #fff;
+        width: 80%;
+    }
+
+    .header__chamada a:hover {
+        background-color: #5e5e5e15;
+        color: #CE7725;
+    }
+
+
+    .container {
+        width: 100%;
+        height: 145vh;
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center; */
+    }
+
+    .blocos {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 11%;
+        width: 100%;
+        margin: 50vh 0 50vh 0;
+    }
+
+    .bloco {
+        width: 83%;
+        height: 45vh;
+        border: 0,5px;
+        border-radius: 3%;
+        padding: 0 1% 0 1%;
+        margin: 2% 0 2% 0;
+        box-sizing: border-box;
+        flex-direction: column;
+    }
+
+    @media (max-width: 450px) {
+        html {
+            font-size: 10px;
+        }
+    }
