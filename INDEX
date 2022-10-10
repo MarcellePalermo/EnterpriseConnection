@@ -1,1 +1,140 @@
-Adicionar aqui
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+    <title>Enterprise Connection - Acessibilidade na Paulista</title>
+</head>
+
+
+<body>
+    <section class="banner">
+        <header class="header">
+            <h2>Enterprise Connection</h2>
+            <nav class="header__menu">
+                <ul class="links__menu">
+                    <li><a href="#" class="header__menu__item">Locais Pet Friendly</a></li>
+                    <li><a href="#" class="header__menu__item">Para toda família </a></li>
+                    <li><a href="#" class="header__menu__item">Para desbravar sozinho</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="header__chamada">
+                <h1 class="header_titulo">Turismo Acessível</h1>
+
+                <a href="" class="header_botao">Os melhores pontos turísticos com acessibilidade na Av. Paulista</a>
+            </div>
+    </section>
+
+    <main>
+    <section class="container negocios">
+    <article class="blocos">
+    <article class="bloco">
+
+        <h3>Casa das Rosas</h3>
+
+    <article class="imagem1"></article>
+    <article class="infos">
+    <article class="infos__1">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+
+    </article>
+
+    <article>
+
+    <p>Volte à época dos casarões da Avenida Paulista visitando a Casa das Rosas. Para facilitar a vida de cadeirantes, tem rampa na entrada, elevador para o segundo piso e banheiro amplo, embora sem itens de acessibilidade.</p>
+
+    </article>
+
+    <article class="botao">
+    <a href="https://casadasrosas-sp.org.br/">Saiba mais</a>
+
+    </article>
+    </article>
+    </article>
+
+
+    <article class="bloco">
+
+    <h3>Japan House</h3>
+
+    <article class="imagem2">
+    </article>
+
+    <article class="infos">
+
+    <article class="infos__1">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star-half-stroke"></i>
+        <i class="fa-regular fa-star"></i>
+    </article>
+
+    <article>
+    
+    <p>
+        Fica em frente à Casa das Rosas e é um espaço dedicado à cultura japonesa. Certamente, vale a visita pela linda arquitetura, mesmo quando não houver exposição. O espaço é quase todo acessível para cadeirantes, com exceção dos jardins.
+    </p>
+
+    </article>
+    <article class="botao">
+   
+    <a href="https://www.japanhousesp.com.br/">Saiba mais</a>
+
+    </article>
+    </article>
+    </article>
+
+    <article class="bloco">
+
+        <h3>Livraria Cultura</h3>
+
+    <article class="imagem3"></article>
+    <article class="infos">
+    <article class="infos__1">
+
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+
+    </article>
+
+    <article>
+    <p>
+        O ambiente é acessível, com rampas e elevadores que proporcionam ao visitante com deficiência ou mobilidade reduzida chegar lá sem dificuldade. O local conta ainda com uma lanchonete, onde você pode sentar-se para ler a sinopse dos livros.
+    </p>
+    
+    </article>
+    <article class="botao">
+
+    <a href="https://www3.livrariacultura.com.br/">Saiba mais</a>
+
+    </article>
+    </article>
+    </article>
+    </article>
+    </section> 
+
+<footer class="rodape">
+
+<p>Todos os direitos reservados - Projeto Enterprise Connection</p>
+    
+</footer>
+  </body>
+</html>
+
+
+</body>
+
+</html>
